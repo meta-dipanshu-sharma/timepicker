@@ -1,0 +1,49 @@
+@import "../../../include/scss/config";
+
+// ============================================================================
+// Audience Goal - Channel & Timeline Content Styles
+// ============================================================================
+.goalChannelContainer {
+  margin-left: 58px;
+}
+
+.navigationButton {
+  float: right;
+  margin-top: -59px;
+}
+
+.timelineHeading {
+  top: -14px;
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 18px;
+  position: relative;
+}
+
+.notificationAlert {
+  cursor: pointer;
+}
+
+.menuItems {
+  min-width: 57px !important;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding-top: 0px;
+  a {
+    height: 0px;
+    padding: 9px 21px !important;
+  }
+}
+
+.menuItems1 {
+  max-height: none !important;
+  min-width: 57px !important;
+}
+
+.menuItems2 {
+  min-width: 57px !important;
+}
+
+.header {
+  min-width: 57px;
+}
